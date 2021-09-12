@@ -10,10 +10,10 @@ type ChartData = {
 
 const DonutChart = () => {
 
-    //Forma errada
+    //FORMA ERRADA!!
     let chartData: ChartData = { labels: [], series: [] };
 
-    //Forma errada
+    //FORMA ERRADA!!
     axios.get(`${BASE_URL}/sales/amount-by-seller`)
         .then(response => {
             const data = response.data as SaleSum[];
