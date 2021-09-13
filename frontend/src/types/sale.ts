@@ -6,7 +6,7 @@ export type Sale = {
     deals: number,
     amount: number,
     date: string,
-    seller: Seller
+    seller: Seller,
 }
 
 export type SalePage = {
@@ -18,16 +18,16 @@ export type SalePage = {
     number: number,
     first: boolean,
     numberOfElements?: number,
-    empty?: boolean
+    empty?: boolean,
 }
 
 export type SaleSum = {
     sellerName: string,
-    sum: number
+    sum: number,
 }
 
 export type SaleSuccess = {
     sellerName: string,
     visited: number,
-    deals: number
+    deals: number,
 }
