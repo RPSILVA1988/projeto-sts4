@@ -13,7 +13,7 @@ const DataTable = () => {
         last: true,
         number: 0,
         totalElements: 0,
-        totalPages: 0,
+        totalPages: 0
     });
 
     useEffect(() => {
